@@ -19,7 +19,7 @@ Run:
 
 It converts the amount of the first currency to the others currencies
 
-![capture](./img/Capture1.png)
+![capture](/img/Capture1.png)
 
 `node index.js <amount> <FromCurrency>`
 
