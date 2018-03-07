@@ -8,6 +8,11 @@ const config = new Conf();
 
 updateNotifier({pkg}).notify();
 
+
+/**
+ * Save the default currencies (present in argv) in a json file config.json, located in the config path
+ * @param {array of strings} argv
+ */
 const saveCurrencies = argv => {
   config.set('defaultFrom', argv[1] || config.get('defaultFrom', 'USD'));
   config.set(
@@ -25,6 +30,9 @@ const version = () => {
   process.exit(1);
 };
 
+/**
+ * Display the help in the console with some examples
+ */
 const help = () => {
   console.log(`
 Usage:
@@ -57,6 +65,10 @@ Examples:
   process.exit(1);
 };
 
+/**
+ * In fonction of argv, the function displays the help, the version, or save the new default currencies
+ * @param {array of strings} argv
+ */
 const helpers = argv => {
   // Version
   if (argv.indexOf('--version') !== - 1 || argv.indexOf('-v') !== - 1) {
