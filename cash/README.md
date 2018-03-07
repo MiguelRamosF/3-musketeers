@@ -20,6 +20,7 @@ Run:
 It converts the amount of the first currency to the others currencies
 
 ![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNG)
+
 `node index.js <amount> <FromCurrency>`
 
 It converts the amount of the FromCurrency to the default(s) ToCurrency(ies).
