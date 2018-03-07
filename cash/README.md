@@ -19,29 +19,28 @@ Run:
 
 It converts the amount of the first currency to the others currencies
 
-![capture](/img/Capture1.png)
-
+![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNGCapture1.png)
 `node index.js <amount> <FromCurrency>`
 
 It converts the amount of the FromCurrency to the default(s) ToCurrency(ies).
 
-![capture](/img/Capture2.png)
+![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNGCapture2.png)
 
 `node index.js <amount>`
 
 It converts the amount of the default FromCurrency to the default(s) ToCurrency(ies).
 
-![capture](/img/Capture3.png)
+![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNGCapture3.png)
 
 `node index.js --save <FromCurrency> <ToCurrency> <ToCurrency>...`
 
 To modify the default currencies 
 
-![capture](/img/Capture4.png)
+![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNGCapture4.png)
 
 `node index.js --help`
 
 To see the help commands
 
-![capture](/img/Capture5.png)
+![capture](https://github.com/MiguelRamosF/3-musketeers/blob/master/cash/img/Capture1.PNGCapture5.png)
 
