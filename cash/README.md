@@ -25,23 +25,23 @@ It converts the amount of the first currency to the others currencies
 
 It converts the amount of the FromCurrency to the default(s) ToCurrency(ies).
 
-(./img/Capture2.png)
+![capture](/img/Capture2.png)
 
 `node index.js <amount>`
 
 It converts the amount of the default FromCurrency to the default(s) ToCurrency(ies).
 
-(./img/Capture3.png)
+![capture](/img/Capture3.png)
 
 `node index.js --save <FromCurrency> <ToCurrency> <ToCurrency>...`
 
 To modify the default currencies 
 
-(./img/Capture4.png)
+![capture](/img/Capture4.png)
 
 `node index.js --help`
 
 To see the help commands
 
-(./img/Capture5.png)
+![capture](/img/Capture5.png)
 
